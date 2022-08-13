@@ -1,0 +1,18 @@
+04 00 22
+00 00
+00 00
+53 61 6D 65 53 69 67 6E 73 00
+44 69 66 66 65 72 65 6E 74 20 53 69 67 6E 73 00
+31 00 03
+31 00 05
+C1 00 03 ;loading the acc with first num
+08 00 38 ;if first num was neg then go somewhere
+C1 00 05 ;load up 2nd num
+08 00 3E ;go to print differnent signs
+41 00 07;print same signs
+00
+C1 00 05;first num was neg
+08 00 34 ;same sign
+41 00 12 ;print different signs
+00
+zz

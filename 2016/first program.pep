@@ -1,0 +1,9 @@
+; Program example 1
+CHARO 0x0010 ,d
+CHARO 0x0011 ,d
+CHARO 0x0012 ,d
+CHARO 0x0013 ,d
+CHARO 0x0014 ,d
+STOP
+.ASCII "Arrr!"
+.END

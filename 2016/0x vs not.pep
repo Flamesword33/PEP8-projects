@@ -1,0 +1,5 @@
+LDA 20, i
+STA 0x20,d
+STA 20,d
+STOP 
+.END
