@@ -14,6 +14,7 @@ $$
  +   101
   -------
    11001
+
    $$
 Now to make it generic. What if I destroyed the first number, while keeping track of the exponent. I would simply bit shift the second number that many times every time I lost data from the first number and then add it to a sum total.
 $$
@@ -42,4 +43,3 @@ next we backtrack until our number is less than or equal to our remainder
   $$
 Either our exponent is at 0 or our remainder is at 0 so we stop and tally.
   $4+1 = 5 remainder 0$
-	
